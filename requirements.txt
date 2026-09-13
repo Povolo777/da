@@ -1,0 +1,15 @@
+mediapipe>=0.10.14
+opencv-contrib-python>=4.10.0.84
+ultralytics>=8.3.0
+faster-whisper>=1.0.3
+sounddevice>=0.4.7
+numpy>=1.26.4
+pyttsx3>=2.90
+ollama>=0.4.0
+pyautogui>=0.9.54
+
+# Optional — only needed if you set voice.tts_engine to "piper" in
+# config.json for more natural-sounding speech. Also download a voice
+# model (.onnx) from https://github.com/rhasspy/piper/releases and
+# point voice.piper_voice_path at it.
+piper-tts>=1.2.0
